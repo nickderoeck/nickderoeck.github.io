@@ -1,0 +1,10 @@
+excerpt_separator: ""
+pygments: true
+markdown: kramdown
+url: http://nickderoeck.github.io
+title: Nick On Software
+email: nick.de.roeck@gmail.com
+author: Nick De Roeck
+description: Welcome to the blog of Nick De Roeck. I write software and manage teams writing software. This blog contains articles on the subject. The name of the blog is a tribute to Joel Spolsky.
+paginate: 6
+google_analytics: 
