@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+body
+{ 
+	font-size: 3vh; /* https://css-tricks.com/viewport-sized-typography/ */
+	font-family: Helvetica, sans-serif;
+	line-height:140%;
+}
+
+img
+{
+	width: 75%;
+	display: block;
+	margin:0 auto;
+}
+
+small 
+{
+	font-size: 2vh;
+}
