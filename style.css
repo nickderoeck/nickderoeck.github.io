@@ -2,10 +2,16 @@
 
 body
 { 
-	font-size: 3.5vw; /* https://css-tricks.com/viewport-sized-typography/ */
+	font-size: 2vw; /* https://css-tricks.com/viewport-sized-typography/ */
 	font-family: Helvetica, sans-serif;
 	line-height:140%;
 }
+
+@media only screen and (hover: none) and (pointer: coarse) {
+	body {
+		font-size: 4vw; /* https://css-tricks.com/viewport-sized-typography/ */
+	}
+  }
 
 img
 {
