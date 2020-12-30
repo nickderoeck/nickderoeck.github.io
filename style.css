@@ -2,7 +2,7 @@
 
 body
 { 
-	font-size: 3vh; /* https://css-tricks.com/viewport-sized-typography/ */
+	font-size: 3vw; /* https://css-tricks.com/viewport-sized-typography/ */
 	font-family: Helvetica, sans-serif;
 	line-height:140%;
 }
