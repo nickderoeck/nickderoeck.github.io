@@ -4,14 +4,23 @@ body
 { 
 	font-size: 15pt; /* https://css-tricks.com/viewport-sized-typography/ */
 	font-family: Helvetica, sans-serif;
-	line-height:140%;
+	line-height: 140%;
+}
+
+small 
+{
+	font-size: 12pt;
 }
 
 @media only screen and (hover: none) and (pointer: coarse) {
 	body {
 		font-size: 40pt; /* https://css-tricks.com/viewport-sized-typography/ */
 	}
-  }
+	small 
+	{
+		font-size: 32pt;
+	} 
+}
 
 img
 {
@@ -20,7 +29,20 @@ img
 	margin:0 auto;
 }
 
-small 
-{
-	font-size: 2vh;
-}
+.img {
+	display: inline-block;
+	vertical-align: middle;
+	width: 33vw;
+	height: 33vw;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 2vw 2vw 2vw 2vw;
+ }
+
+ .description
+ {
+	width: 55vw;
+	vertical-align: middle;
+	display: inline-block;
+ }
