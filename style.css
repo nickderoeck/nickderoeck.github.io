@@ -2,25 +2,28 @@
 
 body
 { 
-	font-size: 15pt; /* https://css-tricks.com/viewport-sized-typography/ */
+	/*font-size: 15pt; /* https://css-tricks.com/viewport-sized-typography/ */
 	font-family: Helvetica, sans-serif;
 	line-height: 140%;
+	font-size: 1.5em;
 }
 
 small 
 {
-	font-size: 12pt;
+	font-size: 0.8em;
 }
 
-@media (pointer:none), (pointer:coarse) {
+/*
+@media (pointer:none), (pointer:coarse), (orientation:portrait) {
 	body {
-		font-size: 40pt; /* https://css-tricks.com/viewport-sized-typography/ */
+		font-size: 2em;
 	}
 	small 
 	{
-		font-size: 32pt;
+		font-size: 1.6em;
 	} 
 }
+*/
 
 img
 {
