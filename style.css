@@ -12,7 +12,7 @@ small
 	font-size: 12pt;
 }
 
-@media only screen and (hover: none) and (pointer: coarse) {
+@media (pointer:none), (pointer:coarse) {
 	body {
 		font-size: 40pt; /* https://css-tricks.com/viewport-sized-typography/ */
 	}
