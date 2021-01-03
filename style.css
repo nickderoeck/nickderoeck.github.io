@@ -5,25 +5,14 @@ body
 	/*font-size: 15pt; /* https://css-tricks.com/viewport-sized-typography/ */
 	font-family: Helvetica, sans-serif;
 	line-height: 140%;
-	font-size: 1em;
+	font-size: 2em;
+	margin: 2vw 2vw 2vw 2vw;
 }
 
 small 
 {
-	font-size: 0,8em;
+	font-size: 1em;
 }
-
-
-@media  (orientation:portrait) {
-	body {
-		font-size: 2em;
-	}
-	small 
-	{
-		font-size: 1.2em;
-	} 
-}
-
 
 img
 {
@@ -34,18 +23,40 @@ img
 
 .img {
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: top;
 	width: 33vw;
 	height: 33vw;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin: 2vw 2vw 2vw 2vw;
+	margin: 0vw 2vw 2vw 0vw;
  }
 
  .description
  {
-	width: 55vw;
+	width: 61vw;
 	vertical-align: middle;
 	display: inline-block;
  }
+
+ @media (pointer: fine) {
+	.img {
+		width: 11vw;
+		height: 11vw;
+		margin: 0vw 1vw 1vw 0vw;
+	}
+	.description
+	{
+	   width: 86vw;
+	}
+   
+	body {
+		font-size: 1.2em;
+		margin: 1vw 1vw 1vw 1vw;
+	}
+	small 
+	{
+		font-size: 1em;
+	} 
+ }
+  
